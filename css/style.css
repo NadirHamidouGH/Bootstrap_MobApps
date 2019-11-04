@@ -1,0 +1,82 @@
+body{
+    background: #333;
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: rgba(113, 195, 113, 0.705) 3px solid;
+    opacity: 0.9;
+}
+
+#home-section{
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;
+}
+
+
+#home-section .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    width :100%;
+    min-height:900px;
+    background: rgba(0,0,0,0.7);
+}
+
+
+#home-section .home-inner {
+    padding-top: 10rem;
+}
+
+#home-section .card-form{
+    opacity: 0.8;
+}
+
+#home-section .fas{
+    color: #fff;
+    background-color: #61686E;
+    padding: 8px;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+ .navbar-brand{
+    font-size: 1.2rem;
+}
+
+#explore-head-section{
+    border-top: 1px solid #61686E;
+}
+
+
+#explore-section , #create-section{
+    background: #D2D3D3;
+}
+
+#explore-section .fas,#create-section .fas {
+    color: rgba(42, 144, 66, 0.829);
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+
+#share-section .fas{
+    color: #FFC107;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+#main-footer{
+    background:rgb(32, 32, 32);
+}
+
+.modal .modal-content {
+    background: rgb(189, 189, 189);
+}
